@@ -1,0 +1,70 @@
+body {
+    background-color: indigo;
+    margin: auto;
+}
+
+h2 {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    padding: 10px;
+    font-family: arial;
+    text-align: center;
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: dodgerblue;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.card {
+    padding: 15px 30px 15px 30px;
+    margin: 40px auto;
+    max-width: 500px;
+    max-height: 300px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+p {
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+img {
+    height: 25px;
+    width: 25px;
+}
+
+.myButton {
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    background-color: #7892c2;
+    border-radius: 10px;
+    border: 1px solid #4e6096;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 12px 37px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #283966;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+    background-color: #476e9e;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}

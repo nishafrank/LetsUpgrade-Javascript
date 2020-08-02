@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="/scripts/randomStyles.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="card">
+            <h2>Random quote</h2>
+            <p>wanna see a random quote ?</p>
+            <!--button to display random quote-->
+            <p class="caption">
+                <button class="myButton" onclick=newQuote();>Generate Quote</button>
+            </p>
+            <script src="/scripts/randomQuote.js"></script>
+            <p id="text"></p>
+            <p id="author"></p>
+            <!--<script>
+                newQuote();
+            </script>-->
+        </div>
+        <div id="quote">
+            <!--Quote will be displayed here.-->
+        </div>
+    </div>
+</body>
+
+</html>
